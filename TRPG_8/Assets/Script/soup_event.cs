@@ -10,6 +10,7 @@ public class soup_event : MonoBehaviour {
 
     public void point_click()
     {
+        GameObject.Find("ME").GetComponent<playerMove>().enabled = false;
         GameObject.Find("MsgCanvas").GetComponent<Canvas>().enabled = true;
         MsgText = GameObject.Find("MsgText").GetComponent<Text>();
         MsgText.text = "這個湯有毒\n";
