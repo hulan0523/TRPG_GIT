@@ -11,7 +11,8 @@ public class dice : MonoBehaviour {
     }
     public int ThrowNum()
     {
-        anim = GetComponent<Animator>();
+        anim = GameObject.Find("dice").GetComponent<Animator>();
+        anim.SetInteger("diceNum", 0);
         int r = Random.Range(1, 7);
         if (r == 1)
         {
