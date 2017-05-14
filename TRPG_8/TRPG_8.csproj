@@ -91,15 +91,18 @@
     <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyServerList.cs" />
     <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyTopPanel.cs" />
     <Compile Include="Assets\Resources\2D Tile Map Creator\Scripts\EditorHitbox.cs" />
+    <Compile Include="Assets\Script\Camera_move.cs" />
     <Compile Include="Assets\Script\LoginCore.cs" />
     <Compile Include="Assets\Script\dice.cs" />
     <Compile Include="Assets\Script\network_Manager.cs" />
     <Compile Include="Assets\Script\playerController.cs" />
     <Compile Include="Assets\Script\playerMove.cs" />
+    <Compile Include="Assets\Script\playerState.cs" />
     <Compile Include="Assets\Script\player_movement.cs" />
     <Compile Include="Assets\Script\pointEntrer.cs" />
     <Compile Include="Assets\Script\soup_event.cs" />
-    <Compile Include="Assets\playerState.cs" />
+    <Compile Include="Assets\Script\survey.cs" />
+    <Compile Include="Assets\border.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\OpenSans\License!.txt" />
