@@ -123,6 +123,7 @@
     <Compile Include="Assets\Editor\CheckDirectories.cs" />
     <Compile Include="Assets\Editor\LayersAndTags.cs" />
     <Compile Include="Assets\Editor\SetTileTextures.cs" />
+    <Compile Include="Assets\Editor\Window_2DTileCreator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\OpenSans\License!.txt" />

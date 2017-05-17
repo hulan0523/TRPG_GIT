@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class soup_event : MonoBehaviour {
 
     Text MsgText;
-
+    Canvas OptionCanvas;
+    
     public void point_click()
     {
         GameObject.Find("ME").GetComponent<playerMove>().enabled = false;
