@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Networking;
 
 public class survey : MonoBehaviour {
     Text MsgText;
@@ -18,5 +19,23 @@ public class survey : MonoBehaviour {
             dice dice = new dice();
             MsgText.text += "喪失san值:" + dice.ThrowNum(); ;
         }
+    }
+    public void Pick_OnClick()    
+    {
+        string focusingObject = PlayerPrefs.GetString("FocusAt");
+        Instantiate (GameObject.Find(focusingObject), Vector3(2, -1, 0), Quaternion.identity);
+        
+        
+    }
+    [Command]
+    void CmdPickObject()
+    {
+        RpcPickObject();
+    }
+    [ClientRpc]
+    void RpcPickObject()
+    {
+        string focusingObject = PlayerPrefs.GetString("FocusAt");
+        Destory(GameObject.Find(focusingObject));
     }
 }
