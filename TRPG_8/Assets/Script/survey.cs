@@ -24,9 +24,15 @@ public class survey : MonoBehaviour {
     {
         string focusingObject = PlayerPrefs.GetString("FocusAt");
         Instantiate (GameObject.Find(focusingObject), Vector3(2, -1, 0), Quaternion.identity);
-        
-        
+        CmdPickObject();
     }
+    public void Open_OnClick()
+    {
+        string focusingObject = PlayerPrefs.GetString("FocusAt");
+        PlayerPrefs.SetString("Room","B");//利用substring直接抓去了哪裡
+        GameObject.Find("ME").transform.position = new Vector3(-4f,0f,0f);
+    }
+
     [Command]
     void CmdPickObject()
     {
