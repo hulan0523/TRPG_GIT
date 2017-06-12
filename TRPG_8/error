@@ -1,0 +1,5 @@
+錯誤容器 ，類型 0事件名稱: BEX64回應: 無法使用Cab 識別碼: 0
+問題簽章:P1: MOXA_dio.exeP2: 1.0.0.0P3: 592f7c04P4: MXIO_NET.dllP5: 1.10.0.0P6: 57fe12cbP7: 000000000005aa29P8: c000000dP9: 0000000000000000P10: 
+附加檔案:\\?\C:\Users\Administrator\AppData\Local\Temp\WERF731.tmp.appcompat.txt\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERF7DE.tmp.WERInternalMetadata.xmlC:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_MOXA_dio.exe_e0f563ebcee850dc55bde8b95c55caf1123925_8519bc1e_cab_6c74f7fc\memory.hdmpC:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_MOXA_dio.exe_e0f563ebcee850dc55bde8b95c55caf1123925_8519bc1e_cab_6c74f7fc\triagedump.dmpWERGenerationLog.txt
+這些檔案可能在這裡:C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_MOXA_dio.exe_e0f563ebcee850dc55bde8b95c55caf1123925_8519bc1e_cab_6c74f7fc
+分析符號: 重新檢查解決方案: 0報告識別碼: 33b3c6b6-4d4e-4812-899e-924137327b58報告狀態: 6
